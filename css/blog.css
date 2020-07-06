@@ -27,16 +27,18 @@ h6, .h6 {
  * Override Bootstrap's default container.
  */
 
-@media (min-width: 1200px) {
-  .container {
-    width: 970px;
-  }
-}
 
+@media (min-width: 1200px) {
+  .container
+   {
+   width: 970px;
+    }
+}
 
 /*
  * Styling for blog
  */
+
 h2
 {
     font-family: 'Open Sans' , "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -83,6 +85,15 @@ h2
   font-size: .875rem;
 }
 
+/*
+ * sign up button  
+ */
+
+ .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #e67e22;
+  border: #e67e22
+}
 /*
  * styling of comments 
  */
@@ -341,4 +352,85 @@ h2
 }
 .blog-footer p:last-child {
   margin-bottom: 0;
+}
+
+/*
+ *responsiveness
+ */
+
+@media (max-width: 991px)
+{
+
+#subscribe-box h4 {
+    font-family: 'Open Sans',"Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    color: #666;
+    text-align: center;
+}
+#subscribe-box p
+{
+
+    font-size: 15px;
+    text-align: -webkit-auto;
+}
+
+
+}
+
+@media (max-width: 767px)
+{
+
+#subscribe-box h4 {
+    font-family: 'Open Sans',"Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: #666;
+    text-align: center;
+
+}
+#subscribe-box p
+{
+
+    font-size: 13px;
+    text-align: -webkit-auto;
+}
+.btn-primary {
+  font-size: 15px;
+  width: 80%;
+
+
+}
+
+}
+
+@media (max-width: 767px){
+
+  #subscribe-box h4 {
+    font-family: 'Open Sans',"Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    color: #666;
+    text-align: center;
+}
+#subscribe-box p
+{
+
+    font-size: 13px;
+    text-align: -webkit-auto;
+}
+.form-control
+{
+      font-size: .8rem;
+}
+}
+@media (max-width: 575px)
+{
+  #subscribe-box p
+{
+
+    font-size: 18px;
+    text-align: -webkit-auto;
+}
+.form-control
+{
+      font-size: 1rem;
+}
 }
