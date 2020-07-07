@@ -151,7 +151,21 @@ h2
     letter-spacing: 1px;
     color: #f1c40f;
     font-weight: 700;
+     
+
 }
+.blog-nav a:nth-child(4):active
+{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #f1c40f;
+    font-weight: 700;
+    border-bottom: 3px solid;
+
+}
+
+
 .blog-nav a:nth-child(5)
 {
     font-family: 'Lato', sans-serif;
