@@ -337,6 +337,23 @@ h2
   line-height: 10px;
 
 }
+/* blog post page for share buttons */
+#share-buttons img {
+width: 70px;
+padding: 10px;
+border: 0;
+box-shadow: 0;
+display: inline;
+margin-top: 18px;
+}
+
+#share-buttons p
+{
+  font-size: 35px;
+  font-weight:700;
+
+}
+
 
 
 /*
